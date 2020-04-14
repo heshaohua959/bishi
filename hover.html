@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        *{margin:0;padding:0;}
+        #outer {
+            width: 1900px;
+            height: 1080px;
+        }
+        .box {
+            width: 45%;
+            height: 30%;
+            margin: 1%;
+            float: left;
+            text-align: center;
+            position: relative;
+            background: salmon;
+        }
+        .box img {
+            width: 325px;
+            height: 155px;
+            /* font-size: 50%; */
+            position: absolute;
+            top:25%;
+            left: 30%;
+        }
+         .box>img:hover {
+            -webkit-transform: scale(1.05);
+            -moz-transform: scale(1.05);
+            -ms-transform: scale(1.05);
+            -o-transform: scale(1.05);
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <div id="outer">
+        <div class="box">
+            <img src="./20200414073236.png" alt="">
+        </div>
+        <div class="box">
+            <img src="./20200414073236.png" alt="">
+        </div>
+        <div class="box">
+            <img src="./20200414073236.png" alt="">
+        </div>
+        <div class="box">
+            <img src="./20200414073236.png" alt="">
+        </div>
+        <div class="box">
+            <img src="./20200414073236.png" alt="">
+        </div>
+        <div class="box">
+            <img src="./20200414073236.png" alt="">
+        </div>
+    </div>
+</body>
+</html>
